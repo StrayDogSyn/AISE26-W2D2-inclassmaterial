@@ -252,7 +252,7 @@ Consumer (prints or processes)
 - Composable (easy to add more filters)
 - Clean separation of concerns
 
-### Best Practices Demonstrated
+### Breakout 2 Best Practices
 
 1. **Type Hints with Generators**
    ```python
@@ -306,7 +306,7 @@ The solution includes detailed answers addressing:
    - Generator chaining concepts
    - Performance optimization trade-offs
 
-### Running the Solution
+### Execution Instructions
 
 ```powershell
 # Navigate to the directory
