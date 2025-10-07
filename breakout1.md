@@ -10,7 +10,8 @@ Duration: 30 minutes
 
 Let's practice creating decorators with a simpler example focused on string manipulation. We'll create two decorators: one without arguments and one with arguments.
 
-#### Part A: Decorator with no paramters
+### Part A: Decorator with no parameters
+
 Create a decorator called `@shout` that converts the return value of any function to uppercase and adds 3 exclamation marks.
 
 **Requirements:**
@@ -28,7 +29,8 @@ def greet(name):
 print(greet("alice"))  # Should output: "HELLO ALICE!!!"
 ```
 
-#### Part B: Decorator with Arguments
+### Part B: Decorator with Arguments
+
 Create a decorator called `@style(prefix, suffix)` that adds custom prefix and suffix text to the return value of functions.
 
 **Requirements:**
@@ -48,6 +50,6 @@ print(say_something("Python is awesome"))  # Should output: ">>> Python is aweso
 **Expected Outcome**: Familiarity with decorator syntax, especially when the decorator should accept parameters.
 
 **Discussion Questions:**
-- Why use a decorator when `def`ining and calling a wrapper function achieves the same thing?
+- Why use a decorator when defining and calling a wrapper function achieves the same thing?
 - What are some useful applications of decorators you can think of?
 - How could a decorator make a function stateful, or able to write to the outer scope (like a logger)?
