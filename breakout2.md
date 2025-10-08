@@ -18,12 +18,10 @@ Implement a moving average filter and test its output by printing 15 samples of 
 See below for details on the moving average filter:
 *A moving average filter is a simple and effective way to smooth data by calculating the average of a fixed number of consecutive data points in a sequence. It is commonly used in signal processing, time-series analysis, and data smoothing.*
 
-
 **How to:**
 - Define a window size (n), which determines how many data points are included in the average.
 - Slide the window across the data stream, one data point at a time.
 - For each position of the window, calculate the mean of the data points within the window. `yield` the result as the smoothed value for the current position.
-
 
 Example output for generator-based moving average filter, assuming the data stream is `[1, 2, 3, 4, 5, 6, 7, ...]` and the `window_size = 3`:
 
@@ -32,7 +30,6 @@ Example output for generator-based moving average filter, assuming the data stre
 3. window contains `[1, 2, 3]` → Moving average: 2.0
 4. window contains `[2, 3, 4]` (pop the first element) → Moving average: 3.0
 5. window contains `[3, 4, 5]` → Moving average: 4.0
-
 
 **Expected Outcome:**
 - A stateful generator which implements a variable moving averaging filter
